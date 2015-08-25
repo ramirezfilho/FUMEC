@@ -1,0 +1,32 @@
+/*
+ ============================================================================
+ Name        : conferePalavra.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+
+int palRec(char pointer, int tam, int pos){
+	if(tam == 1){
+		return 1;
+	}
+	if( *pointer[0] = *pointer[tam-1] )
+		pos++;
+		return palRec(pointer++, tam++, pos);
+	return 0;
+}
+
+int main(void) {
+		char xubango[10];
+		char *pointer = xubango;
+		int pos = 0;
+		setbuf(stdout, NULL);
+		printf("%d", palRec(xubango, strlen(xubango), pos));
+		return EXIT_SUCCESS;
+}

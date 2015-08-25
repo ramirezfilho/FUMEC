@@ -1,0 +1,50 @@
+package usuario;
+
+import java.util.Scanner;
+	
+
+public class Main {
+
+	public static void main(String[] args) {
+	Scanner leia = new Scanner (System.in);	
+		
+		// Programa diagnóstico Fisioterapia
+		int opcao = 0;
+		int selecao = 0;
+		
+		System.out.println("\n01 - Cabeça"
+				+ "\n02 - Ombro"
+				+ "\n03 - Joelho"
+				+ "\n04 - Pé");
+		System.out.println("Digite a parte do corpo: ");
+		opcao = leia.nextInt();
+		
+		
+		switch (opcao) { 
+			case 1: System.out.println("\nA) Olhos"
+					+ "\nB) Ouvidos"
+					+ "\nC) Boca"
+					+ "\nD) Nariz");
+			System.out.println("Selecione a doença: ");
+			selecao = leia.nextInt();
+			
+			System.out.println("Diagnóstico: ");
+					switch (selecao){
+					case 1:System.out.println("Usar óculos");;break;
+					case 2:System.out.println("Passar cotonete");; break;
+					case 3:System.out.println("Escovar os dentes!");; break;
+					case 4:System.out.println("Limpar as meleca");; break;
+					}; break;
+			
+			
+			
+			
+			
+			case 2:; break;
+			case 3:; break;
+			case 4:; break;
+		}
+	
+	}
+
+}

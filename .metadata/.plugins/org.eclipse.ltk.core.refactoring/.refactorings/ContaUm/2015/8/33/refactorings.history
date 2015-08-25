@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ContaUm/src/fatorial&apos; to &apos;fatorial.c&apos;" description="Rename resource &apos;fatorial&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/fatorial" name="fatorial.c" stamp="1439514417012" updateReferences="true"/>
+</session>

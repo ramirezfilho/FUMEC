@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;ED2/src/Copy of ED2.c&apos; to &apos;recurssaoUm.c&apos;" description="Rename resource &apos;Copy of ED2.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Copy of ED2.c" name="recurssaoUm.c" stamp="1439511094487" updateReferences="true"/>
+</session>

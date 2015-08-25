@@ -1,0 +1,32 @@
+package usuario;
+
+import java.util.Scanner;
+	
+
+public class Main {
+
+	public static void main(String[] args) {
+	Scanner leia = new Scanner (System.in);	
+		
+		// Programa diagnóstico Fisioterapia
+		int opcao = 0;
+		
+		System.out.println("Digite a parte do corpo: ");
+		
+		System.out.println("01 - Cabeça"
+				+ "02 - Ombro"
+				+ "03 - Joelho"
+				+ "04 - Pé");
+		
+		opcao = leia.nextInt();
+		
+		switch (opcao) { 
+			case 1:; break;
+			case 2:; break;
+			case 3:; break;
+			case 4:; break;
+		}
+	
+	}
+
+}

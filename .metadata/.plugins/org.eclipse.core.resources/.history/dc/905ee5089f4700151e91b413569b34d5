@@ -1,0 +1,32 @@
+/*
+ ============================================================================
+ Name        : expoente.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int expoente(int x, int y){
+	if(y == 0){
+		return 1;
+	} else if (y == 1){
+		return x;
+	}
+	return x *
+}
+
+
+int main(void) {
+
+	setbuf(stdout, NULL);
+
+	printf("%d", expoente(2,2));
+
+	return EXIT_SUCCESS;
+}
